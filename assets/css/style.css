@@ -492,3 +492,10 @@ button:hover {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+#contabil:hover {
+    background-image: url("../img/contabilidade-img1.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
