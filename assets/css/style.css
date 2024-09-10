@@ -114,10 +114,10 @@ body {
     background-color: rgb(245, 245, 245);
     font-family: 'Montserrat', sans-serif;
     background-image: url(/assets/img/bg-site.jpg);
-    background-size: 120%;
+    background-size: 1920px;
     background-position: center;
     background-repeat: no-repeat;
-    height: 260px;
+    height: 450px;
 }
 
 ol,
@@ -323,6 +323,11 @@ button:hover {
     flex-direction: column;
 }
 
+.card:hover {
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4);
+    background-color: #002880;
+}
+
 .icon i {
     color: #d8eaff;
     font-size: 45px;;
@@ -343,6 +348,14 @@ button:hover {
     justify-content: center;
     padding: 20px;
     border-radius: 15px;
+}
+
+.about-sobre-nos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1920px;
+    height: 550px;
 }
 
 .text-about {
@@ -395,13 +408,87 @@ button:hover {
 /* Linha divisória */
 
 .line-div{
-    width:208vh;
+    width:1920px;
     height: 120px;
     background-color: #002880;
     color:#d8eaff;
-    padding-top: 50px;
-    font-size: 24px;
+    padding-top: 35px;
+    padding-left: 350px;
+    font-size: 42px;
 }
 
 /* serviços card */
 
+.container-serv {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 1920px;
+}
+
+.card-serv{
+    flex: 1 1 25%;
+    height: 200px;
+    background-color: #034086;
+    border: #a5cfff 1px solid;
+    border-radius: 10px;
+    margin: 10px 10px;
+    max-width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.card-serv h3 {
+    color: #e3effc;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 25px;
+    text-decoration: underline;
+}
+
+.card-serv p {
+    color: #ffffff;
+    font-size: 18px;
+    text-align:left;
+    padding: 25px;
+}
+
+.card-serv:hover {
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4);
+    background-color: #002880;
+}
+
+#contabil {
+    background-image: url("../img/contabilidade-img.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#fiscal {
+    background-image: url("../img/fiscal-img.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#societario {
+    background-image: url("../img/societario-img.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#dp-container {
+    background-image: url("../img/dp-img.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#abertura-empresa {
+    background-image: url("../img/abertura-img.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
