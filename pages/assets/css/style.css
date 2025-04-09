@@ -113,7 +113,7 @@ body {
     line-height: 1;
     background-color: rgb(245, 245, 245);
     font-family: 'Montserrat', sans-serif;
-    background-image: url(/pages/assets/img/bg-site.jpg);
+    background-image: url(./pages/assets/img/bg-site.jpg);
     background-size: 1920px;
     background-position: center;
     background-repeat: no-repeat;
@@ -399,7 +399,7 @@ button:hover {
     margin-right: 180px;
     margin-top: 45px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    background-image: url(/pages/assets/img/medium-shot-woman-working-laptop.jpg);
+    background-image: url(./pages/assets/img/medium-shot-woman-working-laptop.jpg);
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -459,42 +459,42 @@ button:hover {
 }
 
 #contabil {
-    background-image: url("/pages/assets/img/contabilidade-img.png");
+    background-image: url("./pages/assets/img/contabilidade-img.png");
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #fiscal {
-    background-image: url("/pages/assets/img/fiscal-img.jpg");
+    background-image: url("./pages/assets/img/fiscal-img.jpg");
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #societario {
-    background-image: url("/pages/assets/img/societario-img.jpg");
+    background-image: url("./pages/assets/img/societario-img.jpg");
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #dp-container {
-    background-image: url("/pages/assets/img/dp-img.png");
+    background-image: url("./pages/assets/img/dp-img.png");
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #abertura-empresa {
-    background-image: url("/pages/assets/img/abertura-img.png");
+    background-image: url("./pages/assets/img/abertura-img.png");
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #contabil:hover {
-    background-image: url("/pages/assets/img/contabilidade-img1.png");
+    background-image: url("./pages/assets/img/contabilidade-img1.png");
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
