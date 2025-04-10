@@ -400,7 +400,7 @@ button:hover {
     margin-right: 180px;
     margin-top: 45px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    background-image: url("img/medium-shot-woman-working-laptop.jpg");
+    background-image: url("/img/medium-shot-woman-working-laptop.jpg");
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -461,42 +461,42 @@ button:hover {
 }
 
 #contabil {
-    background-image: url("img/contabilidade-img.png");
+    background-image: url("/img/contabilidade-img.png");
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #fiscal {
-    background-image: url("img/fiscal-img.jpg");
+    background-image: url("/img/fiscal-img.jpg");
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #societario {
-    background-image: url("img/societario-img.jpg");
+    background-image: url("/img/societario-img.jpg");
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #dp-container {
-    background-image: url("img/dp-img.png");
+    background-image: url("/img/dp-img.png");
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #abertura-empresa {
-    background-image: url("img/abertura-img.png");
+    background-image: url("/img/abertura-img.png");
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #contabil:hover {
-    background-image: url("img/contabilidade-img1.png");
+    background-image: url("/img/contabilidade-img1.png");
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
